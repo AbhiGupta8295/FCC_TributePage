@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+  <style>
+    body {
+      margin: 10px;
+      background: url("https://media.istockphoto.com/vectors/seamless-vector-pattern-different-numbers-vector-id628370726?k=20&m=628370726&s=612x612&w=0&h=u8RdA854L0pvYIaWGbhz8494dvcSqsIywdgU00JyFT0=");
+    }
+
+    #title {
+      font-family: Luxurious Roman;
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      background-color: white;
+      padding: 20px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+      background-color: white;
+      padding: 20px;
+    }
+
+    #main {
+      margin: 30px 8px;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    #img-div {
+      background: linear-gradient(45deg, #006666, #993300);
+      padding: 10px;
+    }
+
+    #image {
+      background: white;
+      display: block;
+      padding: 10px;
+      height: auto;
+      width: 50%;
+      max-width: none;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+    }
+
+    #img-caption {
+      background: white;
+      padding: 10px;
+      margin-top: 20px;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    li {
+      font-family: bahnschrift;
+      margin-top: 15px;
+    }
+
+    ul {
+      background: white;
+      margin-top: 10px;
+    }
+
+    h2 {
+      background-color: white;
+      padding: 50px;
+      text-decoration: underline;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 1.5em;
+      text-decoration: underline;
+    }
+
+    h4 {
+      font-size: 1.1em;
+      padding: 10px;
+    }
+
+    #tribute-info {
+      line-height: 1.6;
+    }
+
+    #tribute-link {
+      line-height: 1.6;
+      text-decoration: inherit;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .back_color {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <main id="main">
+    <h1 id="title">Shakuntala Devi</h1>
+    <p text-align:cente>The Human Calculator</p>
+    <figure id="img-div">
+      <img id="image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTExMWFRUVFxcXGBcYFxcXGBcXFxgXFxcXGhgYHiggGBolGxoWITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMEBBQMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYBBwj/xABHEAACAQIEAgYFCgQFAQkBAAABAgMAEQQSITEFQQYTIlFhcRQygZHRBxUjUlNyobHB8EJiouE0gpKy8bMkMzVjc3STtMIW/8QAGwEAAgMBAQEAAAAAAAAAAAAAAAMBAgQFBgf/xAA1EQABAwIDBAoCAQMFAAAAAAABAAIRAyESMUEEUWFxEyIygZGhscHR8BRS8QUzQkNygsLh/9oADAMBAAIRAxEAPwDA0UUVqXFRRRRQhFFFFCEUUUUIRRRRQhFFFFCEUUUUIRSTSqSaCpSTV1wHhqv2nFxyFUpFXHBOJiPsve3eNbUl60MWug4bCRYxJb7orH8VwYhmdBsDp5HWtQnH4FW+f2WN/wAqyWNxZlkZz/Efw2FZK5E9Vb9lDpukAV2k3qLiuIqo01NYsDnGGiV12vawS4wpYNL60d9Zafi7X0HtNj+VQp8a7G9yPI1cbC4mSYUHb2gQ0SvRW4nFGl2cDuHM+QGpqhxXE8xusbkd9gPwOtZNZWBvfXv3p2THyHdjTzswI/lIG2Gd33itNBjFbQHXuqVesZ6U173pfpj/AF295pbtik9UprP6hA6wWxFaDo/0UxOLAaNVVCSA8hKqxBscoALNY7kAgczWU6Cg4vGwYZySsjgMRvkUFnFxrfKDY99fRiTRxQl5AAqWRUXIoAU5TZTYEIcwAN7BL7k1NHYC50OvoANVWv8A1ENbLbamdAPv8rzDH9AMVGt1ySfyrnVz90SIoY+AJPhVFw7hDzFgLgg5bWGYtrcWZlAsAb3ItpvXuss6KwS5jkkuUBBC6AWVrACx1tfX1rEEaecfKAphaLERi3XjthgNWRVZJPv5JMpI3KHvNFbZabRjbYDMTPf99lejtNZxDKg7QkGI+6weEa28/wAVCEbKSp2IOtirAMpHOxBB111ooxEhdizG5PkPcNgOQA0FqKwHgugDvUSiipaYxQAOpjNgBcg3PjXpwvAOJGQnw91Eoqb6cv2MXuPxo9OX7GL3H41MDeq43fr5j5UKipvpy/Yxe4/Gj05fsYvcfjRA3oxu/XzHyoVFTfTl+xi9x+NHpy/Yxe4/GiBvRjd+vmPlQqKm+nL9jF7j8aPTl+xi9x+NEDejG79fMfKhUVN9OX7GL3H40enL9jF7j8aIG9GN36+Y+VCoqb6cv2MXuPxo9OX7GL3H40QN6Mbv18x8qFXVFSZsUrAgRRrfmL3FRgahXaScxCcVKeWGmRJSxOBVE1qJoabTQUuXEXqnx2Lv2RtzPf4VmqsxGAuhs78DZK7jcfm0Xbv76qpiTpTrPamHc0wNDRARic44imJKaIp9iTzt7aQVt+/3eqlNCbFKNqVIlvHxoMelClcRCTanBB410Hs72I/Kmi9FlW5V50R4p6FjsPiTqsUilranIws9h35SbeNq+mXxSSQSKGBhmBdJB2lCydrMe8FszDa98u4NvknMa1HRjpxjMAAsEoaPU9XIuZFJ3K7Ml+eUi/Opa4tIcMwpIBaWu1X0RFHbEGVJmkPVZFDrYRqMtpGcgAi4JNgDdrHTUee/KhxuN5YsLESVwqlWP87BAEP8yqoJ7jIQdQapMb8oHEsSmUyRQKdbwqwfa2jSMxQ6+stj41QJBYWH7PMk8zWDaa7S3CCutQp1C4PfoIFgLDLL11S+sopJSuVgst10ip2H4U7Kr5okDEhOskCFyN8g51Bq64ZiohGqSzRvGLl4p4S5BNz9Ew35d/OvWUGtc6HZcwPvcvnG2VKrKc0s53E+nvA4hVwwTZJH0tE4Rtdb5smltCL+NcnwbIkbm1pMxWx17JAN+7epuEx0ccGICLGxaRTHHKmcGPNpcc8qeO4pWNxUcy4VS0cds4lCDIiAsmw5aA1Y02YZBvH/AGjP7a6oK1bHDm9WTeLxgxZc9Zz6qiTcMkSJZiBke1tdRe9iRyBt+IpKYCRkR1AIkk6tQPXL2J27tDrerh+KYaRpoyZEV0Eas/V9SnVX6soB2hr2taa4bxsQQRiwZuvOZf4kjIN3Xx5e2r9FSxdq0ZzqPndxISfydqNOcHWkWjQg+hEE203hQE4W7StCGjLKCTYnILbi+XemIsKzRNKLZUIU663a1rD21YYKeDD4m6vmhZXGYXJQOeY3OUj3a03iJYosO0KSiZpJEe6KQERAN789NvGl4GwTuxaj/jznzThWq4mgA3wQcJ4h8xkeBy4pmfhcidSCB9Nkym/Zu9rAm2h1FKwvC3d2QPCHVzHlaSxYpvkFrkaH3VZjjUZliV2DQdXAb/ZTxknP39wPs8ag4LExjHdaWATrpWzcrP1lj+I99MNOiCADMmM8h9v5JDK+1OaSRENJFsyNOZyjPUKFisMY2C545Cfs3z63tY9zX5U5xLhzwEB7doXBBuO4jz+NOcLliWcyyEBUMkijm73OQDx5+wU/isdDJAygyK6OZF68rmfrSS6KU0tck28qXgYWF0wdBO77blxTzVqtqsZBItiManLwtMT3QoOLwrR5c1u3GJBY37L7X8dKcwXDJJVdkAsm9zqdCbL3mw/EVM4kYZFiYTxhkw6J1ety6Am1/bancPxSCIQKOtYoetYxZMnWOChD5tXyoSNPCr9EwPuerz+6yl/k1jRGFpxk3GEwNde4TxVFSTUviKoJX6tgyE3Ujax1A9m3sqMKzEQYXQY7EA4apNqan0FShUTFS8hVE5qiyTnYVEen3phhVVoakoPZamZjfwHdT4juCe637/L31GcchVSnNzTDVLwsOYW/i5C2+23f5edOQYAuRz/vWy4L0UYgaA3tpy86S4rUxqyeJ4aQNFNra+fs51BELDYGx8/2RvXsR6MHLa2mmvPu3/elVWN6Jm2g/WlB5Gaa6liyXmk6XuAP2AT+VqhMLV6b/wDzACkW7RrO8R6NNc8u79jar9MCVToHALJUtDUjGYNozY+8bVGWmBKKvOE46wAO2wq/jN6yvDDe4O2/96uuFYgEEE7e/wDvXO2qlckLqbJWsGlWBrtcorEugo1ctXaK9QvArlqLV2ihCAt9AL+FKaFhqVYDvIIqbwH/ABMX3/0NW/FukM0OJdBkMaFbqRrYojNr36mnNptLMbjF4ynSVlqV6gq9FTaCYm5jWIyPnZZpEJ0Av5C9L6h/s3/0H4Vrjg1jx8ZQWDxuSBoLjc25XuPxpWLGPzMUlw4S5Kgk5gnIHsb08bIbzMgxYTx3rI7+piRhAAInrEjUiLNO5Y0xEC+U277G3voSMnYE+QJ/KtBwFziMNNAfWN5E/wA5zfhIP66Rgn9HwLybPOcicjYgqPd9I9KFEEB02IJ8NPRPdtbgXMw9YODQJzxXBnlJ7lQmM2vY25G2nvpNX/Ff/D8L99P+nLVDS6jMBA3gHxT9nr9MCYiCR4LlqLV2ilp6KSTSqQ9ClIlk0qK9POaZIqqa1N5b0xKtPyWqO+tQU5qZJpUUJYix5jzpLVedHODtK1lHt7hz8qWck8K/6E8GEynMvZFtdjz5+2vTcBgVWwA28NKh9HuEiGMKPM+dXsKi/OsxN10KbeqgYf8Af/FMYiAHuqxYDL3+fxqKyG9Q5MaIVTPhFqqxnDARqK00kRG9RsQBbXnSSE2V470m4ZlbS2vO1x7QRasVKpuQRYjTYDXyFexdLMDdSLbAn3a/pXlOKjHWMttr+e5/GtNHrNhYa4h071EhfKbipmDxZD5rXv8Au9RJUtsb+dcglymrPYDKqx5EXWwSa4BrlVGGxxVQACaK5p2czZdcbSIurWiiiu8vGIooooQpPDMQI5kdr2V7m2pq4xHFcE0hmMU7PcG2lrqABpntyFZ6uWprKpYIAG+4m6z1dlbUdiJIMRYxbP1V3Dx3NihiJAQoQoFXUgEHyubnU12efh7uzsk+ZmLnbc/5qpK5ap6Z0Q4A3m4lR+GwOxMLm2jqmLeZzU7hWOEM4kF8l2BHPqz+ux9lP9IOKrOUEYIRAdCLds76eAA95qrrlV6R2As0V/x2GqKp7QEevndWvEOJJJhYYRnzxsCdOzorjQ/5hVXXLV2oe8vMngPBWpUm0wQ3Uk95RRRRVExFIal0hqCpTD021qcemWqqa1MvST6ppxkpuYWFtKqnApGDizOBXsXQ3h6pENBc79968k4M1pV8x+YvXuPCY8oA8j8f340l5WykNVcQxa2qXDAvNgPbUIB5NA2VeZG58AaekwEIG1z3liT+JpNlrGKLBT5IltowNRCw0I15VnsXg1B0X2rYH4VI4c2m507/AA/W9VcRorsxf5K4mjzWFV+MeNDZnVfMgUxjMSQqh3ubAMyqRc96rc2v3a1TTcPU9o/RjmzEBmohqCXzZc49NFIAqOrG9tDfQ6H868b6RxdXiW8GI87W19xr2DH8OiMZyNdgL5gdQRr7q8j6UDPOSdCwHlfnTKedkiqDqqO9cIp2W2g5i9/f+NNobHa/gaakqQlh61/DaihvD86KrhVw+FqauujWAhl6zrJIs2WUJGZQjXELSCYgm5UWG3iTomtLR+HlpuLH8Liti4FRhc2AYU/o9CjzxrIudDnLLci4WJ2tcbagVY4fhMRfDXbPFiJpyjXys6KkBjhb6knWl4jzuT4Vnwe4keWlLjgZwQqswALEAFgo0uxA22Fz4CgGFV9MkyHEfT8z3K4mChIZ8RhhCevKNEFljEkAUFnCyMXDKTa4NiSKlYXhEceKgwzqJGLyO7XJBSzCEdk7EJ1tt/pQKz0hZu2xdr9nMxZttcoZu6+3jXEzDtAsMtu0CbrpZe0NtBYeVEqOiP7HXfqOJJtO+SYvYK5ihhaeUTKET0dSCkU0IRmmhjExjlYsQOsN9bEA2qZhuHYfPhsgEimHElmId1klhEozBFILx5l0AsSAOZrPSxylesfrip0ztnIIvcDOdCLja+4oeGWMK5E0Y/hazoNbnstpuL7eNEqnRGIx7+WUc+PxmtGOHx+lH6JchwXXhTDPbrRKELdRm60D1rLc999aiYONLSM64dW9KiiHXJilQIyymyIpLoxyg9s2GtztVKWlVi2aYNezNmcNcjQFr32Gx7vCuWZzbtuzHa7MWOoGm7GxPvNEqBQMEF5+md6kYwJHPKOrJRJpB1bMVOVWIClhcjS2o9/Or/C4CAz4uNkULHNKWLCUhMMoktkdeykgcfxnUaC+orNDDyOzLkdnFywszMLblhv76QFZgbZmDML+sQzm5W/1m3IvrvRKY6mXADEctD558/HNWawH0MyPAFBKiOQdYXdw30jE3yLEI+yNPWtqTenekGHiCRMiqvWNIY1VZlPo4yCJpRNr1l8/aHZble1Vc6zIMjmZAf4GLqtr/UOlr+G9ME3NyST3kknTQanwoUhhLsWLUmLxfv8At060YChusQkkgoM+dd9TdQtvJjuKjtS6Q9QU0Jh6bvTzVHYVVNCaYUiddNKU5qfhOHlvEGquIC0NaTknOi3Dy75jsCPjXr8LEJ36c/jWC6N4QoSCOf5bV6LwuAFbHU1lebyujSbAAVauPxRVliUFhoCxsAO/TWqXjvCuIgK0eaS4FzdAFbMC1xIDdcoYaW3vXosXDM22h5WpvEQlQUbbnbY+yltkXK0PGIQFgZHlwrCzmVSFzKdw1hfLy3vsPjWu4JhGmjzkFc2w0v7uVIbhKHUKR+H5VeYAWSwFgNB8agXMlWyAAKzfEx1JZyM5QaDz/WsJxsY6RlcIzB7WCgER6+qwZTbS+1jtrpavTcR2ZSCLgi3sNV3EcOxPZ1G1rcvMUAht1Dml1slg+KYKWCQCHZ0HWXsLMbXNgLEAnQnXuJrFdIlAkPMrlA/v7jXs3zaGGqBRufGvH+n0QTFuq7FVNu7fSppOl0pddkMhZphrTyRaX7t/f/xSBv5V1Dc/v2VpKzX0ToccwDRUnCcOaW5UXt7N9a7SC9gMErU2m8iQFfUUVLj4ZKwBC6EAjtLsfbXRAJXmXPa3tEDmYUSrfo5OI3Z2nERTK6IzzLHLKMwXrDGp7K3JItre3M1F+aZfqf1L8aPmmX6n9S/Gpwu3JT6lJ7S0uF+I95SmxubCJCzlmjncqDfsxdVEBbSwGbPpvvU/hXEMOkDQOZLzhi8gQFI2BtDm/jOUr1nZB/74+yu+aZfqf1L8aPmmX6n9S/GjC7cqk0SIxjOcxnc+RNtxgqVi+Mj0dI0UljhxE7F3yr9KzlRERlLaL27/AMXhUrjnGIpY8SiFruuHykySMsmQJmVYioEJB588p76q/mmX6n9S/Gj5pl+p/Uvxowu3KB0AMhwzntDOQfYfbqy4rPFO2ICzogfExzKZeuAZRHMhtljY3uy6ECqrhWXrVDTGBTcNIM1wpBzAZRe5GntpfzVL9T+pfjR80y/U/qX40YXblLXUWiA8aajQAe3FWvziGkm/7QsLGbDOsitOytFCCpizZM7MBkOoAZlPhUPEcSWSOdM5RXxYmiUhrIhOIJbsjQjNFe2u1tqjfNMv1f6l+NHzTL9T+pfjUw7cqtFAGQ4aat0j4HpaSpHH8YJWjJZGdUCuY+t6kZWPViPre0OxbNyuSd71VVN+aZfqf1L8aPmmX6n9S/Gowu3JjKlJjQ0PFuIUKktUyXh8iKWZbAb6qfDkahtVXAjNOa9rrtIPJMtUdxUhqakqi0NUaStx0cwivCH3vr5W0t51iH1qVwjiTQyqQxCFhnW+hB0Jt32/KqPbIWik6F6RHh7aj9mtPwmXaqXCre1WuHUg6aVjfZdKiVrsBKBYnaonE8UoueXfVa2OEalnIsP0qCI5MSbvdIuS/wAb+dvVHhv5VUucRAWkNaDiKcw2NaZ7R3Cd/NvLwvz86vMKjlwpGnKoL8OvbKSlhbs6ad1u6m5J5ITYday21uAxU+BUXt4G/nRhIuiRkmukoYMoQ2IJ9oAJt+FK4VxBJkBG9tQeXmKouKvPPKAt4kW92PrG/JVO3mRTOGQQm6HVLAi/rD41UG8IMLVYzJY7V8/dN5s2Ol8LAf6Qf1Neu8Y4kMu2vIePjXhePk6yaRyb5nY3HdfSr0u0Sl1zYBMdXTuCwTSHs+/l507hMAz3ttr7bVqeHYERrbnU1qwYIGarQ2cvMnJd4dhurQLtbfx8aKlUVzCJMldZpwiAqyuWrtFelXhly1Fq7RQiVy1Fq7RQiVy1Fq7Wl6K9EjjY5H60RkN1cIIv10/VvKYgbjLZVvfXQ+FBMKWhzjAWZtRau279PA7iihRK5ai1dooRK5ai1dooRK5auNSqS1BQmWpBpxqballaGBI6u9RZobVZYbW4qfgeEGRgdcoI/O9ULwBdOFMzZbXg0pCJfcAX8rVpoGBt41RR4fTTcaipnD5+RrK4ro0wrrFYcPG42upFVWGwOIyiSGY31JV1VgfLS6keBqw62/5VLwKlVFqoCtMSq+DiE1wBicN6xAWVWiYga3zdpRSsVica9jGuHYG4DdZERptzBrvGeFpL2gMrd9rg+YrKcYwchPZjj+8Cw79AGbb30zE3VGEyIPiB7YUri3FsXGCXbDFgSMisGa9r7RkgDbUnnXejWFklkEk7A37ZQCygA6eJvpVZDwhy93ygDcC5J8L8qvfSRDG7EhbjX+UDf2AW9pqhibKXDQlVPTziSxxOw3tkXxY/Df2V5vwjhJY3J0tuO/upXSDjDYuYWv1akhR57sR3mr3hMRAub9wHhUPJY3mqUwKjp3LuGwCx7CpZNdc02TWPMreIaLLhNdrlFRCFXUUUV6FeJRRRWr+TPhMOKxvVToJE6p2ykkagrY9kg8zQTAlWa0ucAFlKK9I6G9BmbGyDF4RvR8suTNcLfOuSxU39XNVZjuCwLwZMSIwJjOyF7tfKJJQBa9tgOXKq4hKZ0LsM8/JYqtTgem8uHhw8MEESiAliXAlZ5GNy4JA6s2JGlyBzq0wXAcMcBwyYxAyT45IZWu3bjMs6lSL2GiqNLHSpvTjoIgxWGXBrljnfqGAJYRyLdyxzG/8A3eZrf+We+oLmkwVcUqjRibw+5b1guNY5Z8RLMsfVCVy/V5s+Utq3asL3a52Fr2qFW++VTgOGwvogwkdutEwOUsxcqYgu5Nzdm23vVpxXoVhVwckEa3x+GginkYFjmzFyygXsdEcAAfU76A4QFU0XFzuC8tor0ToD0VwuN4fO0tkm68xRzXIykpEUFr2YF2Ituc1u6oLdGlh4VjXnitioMSsQa7dlT6PsL2IIdiDbUNU4hkoFFxGLSJWJoooqySikGl11IiaCpCZIpMeHZzZRf8vfVhFhRz1q0woHKkuK1Uwo/C+DZdWNz3DYfGtbwzCgW0qtg0qxws1qQ7OVtYrJlysCKky4K/bTfcj9R8KiCTMRVtguz5fl5+FJcbrVTCMFZxtrz771LhkyGxv4XpcuGB7a6Nz7m8/HxqtxfHIQerbtt9VRmI91VLozK0Bs5BaOGWM61DxUcZ1sN6zcEocnq52U/UZT+upqFxPiE0ZytNGBe2u9/K9VLwQrBt1Y8YxMaA+VYfiuLEilO/1j+S+VP43EFybEuebWso8hzNV/DMG8gPnSi/QK+CDLlBXBxpsoB77VIiNPcQwEkerKbd42/tUOJqCJVwdyec0i9Gprl6gBSSu0Um9FVVlBooqZwjhcuKlWGFczvsNgAN2J5ADnXfXiwCTAUOtN8nnHIcFjBNOWCdW63VSxuxW2g8jU/G/JzKiSZMXhpJYVLyxLJZkUC51bb/NlFReDdBZZoFxM00OFhe2RpmsXvsQDYAHlc3O9rWNVLmkJzadRrha6ndDumpgxskuKxOIeBllCqzyyKCzqU7BJAsoPLTam+A9JMI+DfAY4SrF1hkiliFyt2LWIsdbltbEEMRpa5g4/oRiIMTBh3KZcQwWOZSWjN/YCDYg28dL1F6S9FpsHiUwzWkaQKYyoIDlzlCi/PNpbxHfUQ3RTjqgdYZSL8Ve8T6WYUegYXDLIMLhMRHM0kg7blXzMQo12aQnQXJ0AAqVL8pHVT44wKXTEFXgY9nq5OpWJnKkXI7K6aer41X4/5O5osVhsKZoy2JEpDANZeqXOb8zeu4n5O5LS9RisPiJIb9ZFG/0i5bgjLrZrgixttUQ1XmteB9hS8N0mwLHhXXM9sDE/WDq2a8toRGB3gMpa/wDIO+pPD/lOQYwzPg4UWQlXmRbzmPZcxHrWypcfy6bCslxno2+Hw2GxLSKy4pcyqAbqCobUnferBehVlwry4uCFcVCZlaQ5FWwiOQliAWIl5fVNENUY6s2G7/xScRx7CJgMbhMO73lxSzQdhlyoDh2Gv8JUowH3QedTeMdPY8XwpsPLcYsmMEhezJ1ciN1mYaAlV1HeNNLVE4t8now0fWSY/DLdGdFLZTKFF+xc9q9xt3iu4j5OxEqGbiGEhMihlEjZCRYbZiL2vR1VY9NlGkafKw9Fa3hfQn0hsSExmH6vC5C017xMrKXLBwbBVsQSTyNMcc6HSYeD0mOeDEwZgpkhfMFJNteVrkDQnU1fEFnNJ8TCzNScPUapOGqSqBT4UvUlYKRhxU+NL0tzZCfTdBXYFNS0BFIgWrOCO9ZXBdCmUrBvrWgwjXqrgww7qnwIV8fz9lKNlrarWC45XH4j4ioLRKHzhVPeOZ9+tT8HiLWvpUieNW7jVHXuFpG4qjx2Fjc9kMp5FSQRUPD8AgiJdgZHPfdjV2mFAbw86VinVRYUuxuVcCLLNSYRe07KFAvlXx7z4+FQ+EYJcotoe6rLHxOTe3Z7qocfxDqtF9bn4f3qGNxGAqVSGiSVc4l0jHbIA7jz8hzrK8fWAK0iJlsCe7l3VIj1+kkJZjtfWqHjmaciFL3c2NtTlFr6cydB761MotzOQ+2WSpWcOqLE6buJ9h38FX9GA7sZDdiNFubC/M/lpW74f0KlxAzk9WDzK29uXu86tuiPQ04fJLOVCp6sSi9yRpmvufAaeNbGWctpt4DYfE1fosRxO8Evpi0Q096wi/J2g9bEMT/Kgt+JorbZT3UVPQM3I/Jq718+1tPkl4nFBj/pWCiWJolY6AOWRgCToL5SPOw51i64RWwiRC4rHYXB25bPHfJnjY+vd2iVI1duueUL1u/tBbnmsLnc1f8ASjhMnF8Jg58DlkEUZjeHMqmNyEuLMQARltqRplIuDXmEkrMoVnZlX1VLMVXloCbD2UQyshzI7IToSrFSR3XU1WDmmdIwAgAwc7r1xgMInCeHyOr4mPEJIwBvkS8lhfkBnVR3hD3VOxfG8KZsRJiivXcNmleEFgGkWSO6qAfWObQAbZENeKKxBzAkNe+a5zX77738a45LG7EsTzJuT7TR0av+TAsPv83Xs8eJeXG8BlkN3kw0zse9mwwZj7yao8Z0pwOAxWMkw0GIbGM0sbPIUEQYyXcizXy51Bta5ygXF684GIfsnO91FlOZuyLWsuvZFtNKQzEkkkknUk6kk7knmaMG9Q7aJyH2IXpmN4TJxLhOBGDyyPhh1ciZlVgQgQ3zEAeqDruGBFV3yp5YoeH4QsrS4bDlZQpuFJSFR78jHyt31hYZWQ3R2QnQlWKkjuuDSO/x1J7ydye+pDYKo+qHNNrmPJeg/K2PoeG/+2b/AGw1tukmFldMN1fDIccBELtJJGhj0XsjPvffTurwuSVmtmZmsLDMxNh3C+wp0Y6b7aX/AOR/jUFlgFcVxicYzjdpzXp/RLDiJOMrioDCgUNJDEUYpG8cr5EIOUnIwt7NqidIBDFwUfN8bHDYmYNM8jXkjZWUAMo0F2jVb3toN81684OJftfSP2vW7bdrS3a17WmmtcWZgpUOwU7qGIU7brsdh7qMF5UGuMMRofNIqThqjVJw1XKQFbYerPD1WYerLD1VNapyxcxv+dSofCkYepTQ8x7R+tJe2y2UXxYp/Dy2q5wLA+NZ9D7vxqdBJasRfC6bGytKuUimXi1091QIZm5UrryKS+oCtTWkKe1yOY91QJcinPI1gOZOn96bxfFsg11J2A5/AeNZrFYlpGBc3PId3gKYxmO+iTVrCnzUnjXHi/YhFgT6xGp+6OXt/CqVMOF1fU/v8amSqsYvoWI9ns8PjVYZC5N/+a106WKwyWOrVLLu7W79ee88NNVG4pi7C/L9O/y/Otz0L6JLh19In7Ur6/dFtI0/G7eJ2FHRjosihcRiVzE2McflqGI89ddOfdWmxM1sryaAsEABAsWvYKDvrbxpziBYZLOwOJk5lRJcC00ud3OXLlEY0QDn4nYd1/LSreHA2p4FVFzZR+7e3wpp80mguqn/AFH2/wAP5+VVsrXSZGi78240F7WNje22oPuoql4lxOTMI8IBlQAs1tCW1A8wBr50UsuamYCvCaKKK2LiIooooQiiiihCKKKKEIooooQiiiihCKKKKEIqThqjVKwwoKkK1w1WuGFVUFW2GtVU1qs8OKtMMvjVXCBVrhRVSnNSp8FbtLtz8P7UgQn+9T4sZGAbnQb2DH8t6MQI0XPmAQ7XJvfuA3PlyrLVozcLoUK0WKiwZgfDx3oxvEQmi2L8+4X7/Hw8OVV+J4kW0TsjvvZiOf3fzqCovoOXPXv/ABPhWdmz3ly0v2onq08/uX2y6Zi7W3Y7k/vQabV2W0e5179tv08N9aZxOLSEWFr8zzvqPztpVZDO+IfLGpck7DYHxNbGMxC9gsjqnRnq3f6ct546aap2Ry5trv8A8Vs+jXRnq7STLeS11Q7J3Fu8/wAtTeivRkQASP25Tzt2U+6DufE+6p2FGIVs0h6uNGZnaQISyLYAAKexc6+Qprn/AOLckllPU5qyMQUF5D/fuA+FRsRPb6RkzMATHGLXGm+ugOureynY1MxEjaIPVH6kd9dnQm+QC4Gl9bnlfalZ3TeCb4YkjgSTWzHZF9VAf9zW3PutS+J4ogiGM/Svz+onNj47gf2qt4lxB8FEZ53zuwCRwpsXZhrtdiLjXTQbAnV3ofgZQplxBzTOxZja1gScq6E7CwqvAKxtfw++qosZwiWeWRY2kiSJ8oIZkD9lQbEKc9ip17ya5WsiF1B77t/qN/1rlWvoVE8AvnKiiitS4qKKKKEIooooQiiiihCKKKKEIooooQiiiihCKlYWiigqQraCrXC0UVVNarTD7ipmI9Q/db8qKKoU9qr8ZvL98/7BUbBfqPyoorH/AKvh6LYex4pc1LT1fZ/+qKKu/s949CnbL/cP+x3q1ZPjHrn2flW9+Tz+L2f7VrlFPqZt5rHR7B5D2XpeFqq6a/4VvvR/9RaKKXV7DuRWij/cbzCgdDP8An/qYj/7EtX2Gooq7s0qn2QqPpL/AIuD7h/3VoMF6poopbO27n7BNf2W8vdRsP6q+Q/KiiirKpX/2Q==" alt="Shakuntala Devi in a conference">
+      <figcaption id="img-caption">
+        Shakuntala Devi (4 November 1929 – 21 April 2013) was an Indian mathematician, writer and mental calculator, popularly known as the "Human Computer".
+      </figcaption>
+    </figure>
+    <section>
+      <h2 style="text-align:center">A brief of Shakuntala Devi's Journey</h2>
+      <h3 style="margin-top:60px">Childhood and Early Life</h3>
+      <ul id="tribute-info">
+        <li>
+          Shakuntala Devi was born in Bengaluru, India, on 4 November 1929 to an orthodox Kannada Brahmin family. Her father was a traveling magician who had rebelled against his traditional family to pursue this unconventional profession instead of becoming a priest or astrologer as his forefathers had been.
+        </li>
+        <li>
+          Her family was a very poor one as her father hardly made enough to make ends meet. She could not even receive a formal education because of her family’s dire financial situation.
+        </li>
+        <li>
+          According to an anecdote, she started playing card games with her father when she was three years old. Her father realized that the little girl won all the games against him every day and suspected that she was cheating. He closely studied her as she played and realized that she was memorizing all the card numbers and their sequence as the game progressed in the initial rounds and used this knowledge to win the game.
+        </li>
+        <li>
+          Word spread about her amazing ability and soon she started appearing at universities in southern India. She displayed her skills to the faculty of the University of Mysore when she was six and went on to demonstrate her ability at the Annamalai University. She also performed at the Osmania University and the varsities of Hyderabad and Visakhapatnam.
+        </li>
+      </ul>
+      <h3>Later Years</h3>
+      <ul id="tribute-info">
+        <li>
+          With time she became an internationally known name and she moved to London with her father in 1944. She travelled widely all over the world and demonstrated her skills in several countries including the United States, Hong Kong, Japan, Sri Lanka, Italy, Canada, Russia, France, Spain, Mauritius, Indonesia and Malaysia.
+        </li>
+        <li>
+          In 1955, she appeared on a BBC show where the host Leslie Mitchell gave her a complex math problem to solve. She solved it in seconds but the host told her that her answer was incorrect as her answer was different from what the host and his team had calculated.
+          Mitchell then rechecked the answer and realized that Devi’s answer was the correct one and the original answer was wrong. This news spread across the world and Shakuntala earned the title of the 'Human Computer'.
+        </li>
+        <li>
+          She was also a successful astrologer and authored several books on the subject. In addition she also wrote texts on mathematics for children and puzzles.
+        </li>
+      </ul>
+      <h3>Major Works, Awards and Achievements</h3>
+      <ul id="tribute-info">
+        <li>
+          Shakuntala Devi is best remembered for demonstrating the multiplication of two randomly picked 13-digit numbers—7,686,369,774,870 × 2,465,099,745,779 on 18 June 1980. She correctly gave the answer as 18,947,668,177,995,426,462,773,730 in 28 seconds. This unbelievable feat of hers earned her a place in the ‘Guinness Book of Records’ in 1982.
+        </li>
+        <li>
+          She started the Shakuntala Devi Education Foundation Public Trust to provide quality education to children from underprivileged backgrounds. She also helped spread global awareness about India’s contribution towards mathematics.
+        </li>
+        <li>
+          In 1969 she was awarded the title of the 'Most Distinguished Woman of the Year' by the University of Philippines.
+        </li>
+        <li>
+          She received the 'Ramanujan Mathematical Genius' Award in Washington D.C in 1988.
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <h4 class="back_color" style="text-align:center">For more information you can <a id="tribute-link" href="https://en.wikipedia.org/wiki/Shakuntala_Devi" target="_blank">click here</a></h4>
+    <h4 class="back_color" style="text-align:center">You can also check her book <a id="tribute-link" href="https://books.google.co.in/books?id=6k7yF2qQ7xoC&redir_esc=y" target="_blank">Figuring: The Joy of Numbers</a> in which she had explained many of the methods she used to do mental calculations</h4>
+  </footer>
